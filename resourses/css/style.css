@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Yeseva One', cursive;
+}
+
+.top-space {
+	padding-top: 50px;
+}
+
+#nav {
+	background: white;
+}
+
+#home-section {
+	background-image: linear-gradient(to top,rgba(160, 21, 2, 0.308),transparent), url("../img/restaurant-home-bg.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+    
+}
+
+#home-section .navbar {
+	background: rgba(126, 134, 151, 0.26);
+}
+
+
+#home-section .nav-item {
+	padding-right: 10px;
+}
+
+
+#home-section .nav-link {
+	font-size: 20px;
+	color: white;
+}
+
+#home-section .middle-part {
+	padding-top: 130px;
+	padding-bottom: 100px;
+}
+
+#home-section h1 {
+	text-align: center;
+	font-size: 60px;
+}
+
+#home-section .fa{
+	 color:  #cc9900;
+}
+
+.divider-white,.divider-yellow {
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#home-section .btn-1 {
+	color: white;
+	font-size: 20px;
+	background: rgba(27, 30, 34, 0.61);
+}
+
+#home-section .btn-2 {
+	color: white;
+	font-size: 20px;
+	background: rgba(194, 205, 221, 0.45);
+}
+
+#home-section .booked-table {
+	background: rgba(0, 0, 0, 0.53);
+	padding: 16px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#home-section .see-menu {
+	background: rgba(242, 239, 239, 0.33);
+	padding: 16px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+#about-section {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.79),rgba(204, 153, 0, 0.82));
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	min-height: 50%;
+}
+
+#about-section h2 {
+	color: #cc9900;
+}
+
+
+
+#ingredient-section {
+	background-image: url(../img/ingreadient.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	min-height: 50%;
+    
+}
+#ingredient-section h2 {
+	font-weight: 500;
+}
+
+
+#ingredient-section .ingre-bg {
+	background: rgba(0, 0, 0, 0.59);
+	margin: 70px 0 70px 0px;
+}
+
+
+#menu-section  {
+	background-image: linear-gradient(rgba(204, 153, 0, 0.08),rgba(204, 153, 0, 0.12));
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	min-height: 50%;
+}
+
+
+#menu-section h4 {
+	font-size: 20px;
+}
+#menu-section h2,h3,h4,small {
+	color: #cc9900;
+}
+
+#menu-section .border-inner {
+	border-bottom: 1px solid #cc9900;
+}
+
+
+
+#menu-section .border-around {
+	border: 1px solid #cc9900;
+	padding: 20px;
+	position: relative;
+}
+
+#menu-section .border-around::before {
+	position: absolute;
+	content: "Special";
+	color: white;
+	text-align: center;
+	display: table;
+	background: #cc9900;
+	width: 100px;
+	height: 30px;
+	top: -17%;
+	bottom: 100%;
+	right: -0.1%;
+}
+
+
+
+#review-section  {
+	background-image: url(../img/review.jpg);
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	min-height: 70%;
+}
+
+
+
+#review-section .review-inner-bg{
+	background: rgba(0, 0, 0, 0.59);
+}
+
+#review-section 
+
+#review-section p{
+	font-size: 16px;
+	position: relative;
+}
+
+
+#review-section p::before{
+	position: absolute;
+	content: "";
+	display: table;
+	width: 50px;
+	height: 40px;
+	background: url(../img/quote.png);
+	background-repeat: no-repeat;
+	left: 0%;
+	top: -8%;
+}
+
+#reservation-section img {
+	max-width: 100%
+}
+
+#reservation-section p{
+	font-size: 16px;
+}
+
+
+#reservation-section h2{
+      color:  #cc9900;
+}
+
+#reservation-section label {
+	 color:  #cc9900;
+}
+
+
+#reservation-section input {
+	border: 1px solid #cc9900;
+	padding: 5px 5px;
+}
+
+
+#reservation-section input[type="date"] {
+	padding: 5px 18px;
+}
+
+#reservation-section button {
+	background: #cc9900;
+	color: #fff;
+}
+
+
+#footer-section {
+	background: #191919;
+	color: #f0f0f0;
+}
+
+#footer-section a {
+	text-decoration: none;
+	padding: 5px;
+}
+
+#footer-section a:hover .fa{
+	transform: translateX(5px);
+	transform: translateY(5px);
+	color: #CC9900;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-o-transition: 0.6s;
+	-webkit-transform: translateY(5px);
+	-moz-transform: translateY(5px);
+	-ms-transform: translateY(5px);
+	-o-transform: translateY(5px);
+}
+#footer-section .fa {
+	color: #f0f0f0;
+}
+
+#footer-section a {
+	margin-right: 20px;
+}
+
+
+#footer-section .last-text{
+	font-size: 17px;
+}
+
+
+.top-starter{
+	margin-top: -300px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+	#home-section h1 {
+		font-size: 40px;
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.font-manage {
+		font-size: 18px;
+	}
+}
+
